@@ -1,0 +1,229 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header-image{
+    background: url(../images/Hero-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 535px;
+    border-radius: 5px;
+}
+.top-head{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.top-left{
+    color: #4e47ff;
+    font-size: 35px;
+    margin: 20px 50px;
+    font-weight: bold;
+    padding-top: 7px;
+    text-decoration: none;
+}
+.btn{
+    background-color: #4e47ff;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 20px; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgba(78, 71, 255, 0.3)
+}
+.right{
+    margin: 20px 50px;
+}
+.top-content{
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+.top-content h1{
+    font-size: 30px;
+}
+.action-container{
+    width: 1140px;
+    height: 328px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.action-content{
+    margin-top: 40px;
+    padding: 10px;
+    width: 300px;
+}
+.action-container img{
+    border-radius: 40px;
+    width: 403px;
+    height: 328px;
+}
+.user-container{
+    width: 1140px;
+    height: 306px;
+    margin: 50px auto;
+    background-color: #e5e7ff;
+    border-radius: 10px;
+    position: relative;
+}
+.action-container .subtitle{
+    opacity: 0.5;
+}
+.user-container .user-title{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+.user-feedback{
+    margin: auto;
+    width: 80%;
+}
+.user-feedback span{
+    display: inline-block;
+    color: #4e47ff;
+    margin-left: 143px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.user-subtitle{
+    width: 80%;
+    margin: auto;
+    opacity: 0.6;
+}
+.user-subtitle span{
+    display: inline-block;
+    margin-left: 150px;
+}
+.section3{
+    width: 1150px;
+    height: 342px;
+    margin: 50px auto;
+    position: relative;
+}
+.section3 h2{
+    text-align: center;
+    padding: 20px 10px;
+}
+.five-star-container{
+    display: flex;
+    margin-left: 35px;
+}
+.five-star-content{
+    width: 340px;
+    height: 243px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #ddd;
+}
+.avatar{
+    border-radius: 50px;
+    padding: 10px;
+}
+.viewer-content{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+}
+.star-subtitle{
+    opacity: 0.5;
+}
+.section4 h2{
+    font-size: 45px;
+}
+.section4{
+    text-align: center;
+    padding: 70px 110px;
+    width: 1140px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #ddd;
+}
+.started-free button{
+    margin: 20px 0;
+}
+.section4 .wc-big{
+    border-radius: 30px;
+}
+.section5{
+    width: 1140px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.section5 h1{
+    font-size: 70px;
+    width: 50%;
+    margin-top: 180px;
+}
+.section5 form{
+    width: 50%;
+}
+.section5 form label{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0 5px 0;
+}
+.section5 form input, textarea{
+    width: 100%;
+    height: 70px;
+    padding: 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #ddd;
+}
+.section5 textarea{
+    height: 140px;
+    margin-bottom: 20px;
+}
+.section5 input:hover:not(.btn), textarea:hover:not(.btn){
+    border: 0.5px solid #4e47ff;
+}
+footer{
+    width: 100%;
+    height: 370px;
+    padding-top: 110px;
+    position: relative;
+    box-shadow: 0 0 20px #ddd;
+}
+.footer-container{
+    width: 500px;
+    height: 221px;
+    margin: auto;
+    text-align: center;
+}
+.footer-container h1 a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 800;
+    color: #4e47ff;
+    padding: 10px;
+}
+.footer-container .footer-para, .footer-container span{
+    opacity: 0.6;
+}
+.footer-container ul{
+    list-style: none;
+}
+.footer-container li{
+    display: inline;
+}
+.footer-container li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    opacity: 0.5;
+}
